@@ -1,0 +1,73 @@
+html{
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url("./restaurant.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#root{
+  height: 100%;
+}
+
+.centerSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rectangle{
+  margin: 5%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(75, 74, 74);
+  opacity: 0.75;
+  border-radius: 25px;
+  color: white;
+}
+
+.item{
+  font-family: Brush Script MT;
+  position: relative;
+  margin: auto;
+  padding: 0.5%;
+  margin-bottom: 2%;
+}
+
+.title{
+  font-family: Brush Script MT;
+  position: absolute;
+  left: 39%;
+  font-size: 50px;
+  color: white;
+  top: -12%;
+}
+
+.cestlapolice{
+  font-family: Brush Script MT;
+  font-size: 20px;
+}
+
+.hrStyle{
+  border: 1px solid white;
+}
