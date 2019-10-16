@@ -10,7 +10,7 @@ export default class Desserts extends React.Component {
     }
 
     componentWillMount() {
-        axios.get('http://10.115.21.250:3000/dessert')
+        axios.get('http://labouchedesgouts-api.herokuapp.com/dessert')
             .then(res => {
                 this.setState({
                     desserts: res.data

@@ -9,7 +9,7 @@ export default class Menus extends React.Component {
     }
 
     componentWillMount() {
-        axios.get('http://10.115.21.250:3000/menu?asc')
+        axios.get('http://labouchedesgouts-api.herokuapp.com/menu?asc')
             .then(res => {
                 this.setState({
                     menus: res.data
