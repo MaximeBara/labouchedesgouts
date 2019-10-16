@@ -10,7 +10,7 @@ export default class Entrees extends React.Component {
     }
 
     componentWillMount() {
-        axios.get('http://labouchedesgouts-api.herokuapp.com/entree')
+        axios.get('https://labouchedesgouts-api.herokuapp.com/entree')
             .then(res => {
                 this.setState({
                     entrees: res.data

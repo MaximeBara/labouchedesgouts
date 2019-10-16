@@ -10,7 +10,7 @@ export default class Plats extends React.Component {
     }
 
     componentWillMount() {
-        axios.get('http://labouchedesgouts-api.herokuapp.com/plat')
+        axios.get('https://labouchedesgouts-api.herokuapp.com/plat')
             .then(res => {
                 this.setState({
                     plats: res.data
